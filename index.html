@@ -17,9 +17,10 @@
   <!--Barra De Navegação-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
   <div class="container">
-    <a class="navbar-brand" href="#">Cinema</a>
+    <a class="navbar-brand" href="#">CinePro</a>
+    <a class="navbar-brand" href="#"><img src="./img/unnamed-removebg-preview.png" width="100px" height="70px" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon">Cinema</span>
+      <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -27,9 +28,7 @@
           <a class="nav-link active" aria-current="page" href="#">Inicio</a>
         </li>
         
-        <li class="nav-item">
-          <a class="nav-link" href="sobre.html">Sobre</a>
-        </li>
+        
         
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,10 +36,10 @@
           </a>
           
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Ação</a></li>
-            <li><a class="dropdown-item" href="#">Aventura</a></li>
+            <li><a class="dropdown-item" href="ação.html">Ação</a></li>
+            <li><a class="dropdown-item" href="aventura.html">Aventura</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Romance</a></li>
+            <li><a class="dropdown-item" href="romance.html">Romance</a></li>
           </ul>
         </li>
         
@@ -89,8 +88,19 @@
 <!--Fim do Carroseu-->
 <div>
  <br> 
-<h1 style="font-family:Arial, Helvetica, sans-serif" >Bem vindo ao CinePro</h1> 
-
+ <section class="hero">
+  <div class="container">
+      <div class="row">
+          <div class="hero__img">
+              <img src="./img/unnamed-removebg-preview.png" width="550px">
+          </div>
+          <div class="hero__content">
+              <h1>Bem vindo ao <br><span>CinePro</span></h1>
+              <p>Venha conhecer Sobre Plataforma!</p>
+              <a href="sobre.html" class="btn btn__outline"><img src="./img/pngtree-film-festival-logo-popcorn-and-film-free-png-image_1311154-removebg-preview.png" height="60px">faça seu pedido!</a>
+          </div>
+      </div>
+  </div>
 </div>
    <!--Catalago-->
 
@@ -225,7 +235,7 @@
      </a>
 
    </div>
-   </div>
+   </div> <br>
    <!--fim Do Catalago-->
   
      <!--Começo do rodapé-->
@@ -233,11 +243,35 @@
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <footer>
-  <div class="navbar navbar-expand-lg navbar-dark bg-danger">
-    © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
+  <footer class="footer" id="contact">
+    <div class="footer__list section container grid">
+        <div class="footer__data">
+            <h1><a href="#"><img src="./img/unnamed-removebg-preview.png" width="120px" height="90px" alt=""></a></h1>
+            <div class="footer__data-social">
+                <a href=""><i class='bx bxl-facebook social__icon'></i></a>
+                <a href=""><i class='bx bxl-instagram social__icon' ></i></a>
+                <a href=""><i class='bx bxl-whatsapp social__icon' ></i></a>
+            </div>
+        </div>
+        <div class="footer__data">
+            <h2>Nosso Endereço</h2>
+            <p>Rua Presidente Backer, 123<br> Niteroi - RJ</p>
+        </div>
+        <div class="footer__data">
+            <h2>nosso horario</h2>
+            <p>Segunda á sexta<br>das 09:00 as 18:00</p>
+        </div>
+        <div class="footer__data">
+            <h2>Contato</h2>
+            <p>(21) 95646-2354</p>
+            <p>(21) 98564-3156</p>
+        </div>
+    </div>
+    <div class="copy">
+        <p>Copyright © CinePro |Filmes & Series - Todos os direitos reservados
+            Tecnologia © CinePro</p>
+        <span></span>
+    </div>
 </footer>
 <!-- Footer -->
 </body>
